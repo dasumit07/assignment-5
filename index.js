@@ -64,3 +64,22 @@ cardContainer.appendChild(newCard);
 getelementByid("clear-btn").addEventListener("click", function(){
     getelementByid("card-container").innerHTML = " ";
 })
+
+// copy button click event handler here
+
+const copyButtons = getelementByClass("copy-btn");
+for(let copyButton of copyButtons){
+
+    copyButton.addEventListener("click", function(){
+
+const phoneNumber = copyButton.parentNode.parentNode.children[2].children[0].innerText;
+
+navigator.clipboard.writeText(phoneNumber).then(() => {
+      alert("Copied: " + phoneNumber);
+    })
+
+const currenCount = getelementByid("copy-count").innerText;
+let newCount = Number(currenCount) + 1;
+getelementByid("copy-count").innerText = newCount;
+
+})}
