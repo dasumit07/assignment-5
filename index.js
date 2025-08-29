@@ -28,7 +28,11 @@ for(let callButton of callButtons){
         const cardPhone = callButton.parentNode.parentNode.children[2].children[0].innerText;
 const availableCoin = Number(getelementByid("total-coin").innerText);
 const date = new Date().toLocaleTimeString(undefined, {hour12: true});
+
+
+
 if(availableCoin >= 20){
+
 alert(`📞 Calling ${cardTitle} ${cardPhone}...`);
 
  let currentCoin = availableCoin - 20;
@@ -52,15 +56,11 @@ cardContainer.appendChild(newCard);
 }else{
     alert("😔 sorry! you have no enough coin to make a call. please buy more coin.");
 }
-
-
-
-
-
-
-
-
-        
-
-    })
+  })
 }
+
+// clear button click event handler here
+
+getelementByid("clear-btn").addEventListener("click", function(){
+    getelementByid("card-container").innerHTML = " ";
+})
