@@ -18,6 +18,8 @@
 </head>
 <body>
     <header>
+      <!-- nav section here -->
+
         <nav class="flex justify-between items-center w-[1180px] mx-auto mt-[24px]">
             <div class="flex items-center gap-3 p-3">
                 <img class="w-[50px] h-[50px]" src="./assets/logo.png" alt="">
@@ -25,11 +27,11 @@
             </div>
             <div class="flex gap-[20px] ">
                 <div class="flex justify-center items-center w-[123px] h-[52px] p-[12px] gap-[10px] bg-[#41ff6b1a] rounded-[50px]">
-                    <span class="font-bold text-black text-xl">0</span>
+                    <span id="heart-icon-count" class="font-bold text-black text-xl">0</span>
                     <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
                 </div>
                 <div class="flex justify-center items-center w-[123px] h-[52px] p-[12px] gap-[10px] bg-[#41ff6b1a] rounded-[50px]">
-                    <span class="font-bold text-black text-xl">100</span>
+                    <span id="total-coin" class="font-bold text-black text-xl">100</span>
                     <img class="w-[24px] h-[24px]" src="./assets/coin.png" alt="">
                 </div>
                 <div class="flex justify-center items-center w-[123px] h-[52px] p-[12px] gap-[6px] bg-[#00a63e] rounded-[50px] font-semibold text-white text-lg ">
@@ -38,6 +40,7 @@
                 </div>
             </div>
         </nav>
+<!-- hero section here -->
 
         <div class="md:h-[240px] flex flex-col justify-center items-center bg-gradient-to-r from-green-900 via-teal-800 to-green-900 mt-3 ">
                 <img class="w-[92px] h-[92px]" src="./assets/logo-dark.png" alt="">
@@ -47,6 +50,9 @@
             </div>
             </div>
     </header>
+
+    <!-- main section here -->
+
     <main class=" bg-[#41ff6b1a] ">
         <section class="w-[1200px] mx-auto grid grid-cols-5">
             <div class="col-span-4 grid grid-cols-3 mt-8 mb-8 gap-x-0 gap-y-8">
@@ -57,7 +63,7 @@
       src="./assets/emergency.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">National Emergency Number</h2>
@@ -68,10 +74,13 @@
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
+
+
+
                 <div class="card bg-base-100 md:w-[300px] md:h-[360px] shadow-lg">
   <div class="flex justify-between items-center p-5 mb-0">
     <div class="md:w-[60px] md:h-[60px] bg-[#dfefff] flex justify-center items-center rounded-xl">
@@ -79,7 +88,7 @@
       src="./assets/police.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">Police Helpline Number</h2>
@@ -90,10 +99,14 @@
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
+
+
+
+
                 <div class="card bg-base-100 md:w-[300px] md:h-[360px] shadow-lg">
   <div class="flex justify-between items-center p-5 mb-0">
     <div class="md:w-[60px] md:h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
@@ -101,7 +114,7 @@
       src="./assets/fire-service.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">Fire Service Number</h2>
@@ -112,10 +125,15 @@
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
+
+
+
+
+
                 <div class="card bg-base-100 md:w-[300px] md:h-[360px] shadow-lg">
   <div class="flex justify-between items-center p-5 mb-0">
     <div class="md:w-[60px] md:h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
@@ -123,7 +141,7 @@
       src="./assets/ambulance.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">Ambulance Service</h2>
@@ -134,10 +152,14 @@
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
+
+
+
+
                 <div class="card bg-base-100 md:w-[300px] md:h-[360px] shadow-lg">
   <div class="flex justify-between items-center p-5 mb-0">
     <div class="md:w-[60px] md:h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
@@ -145,7 +167,7 @@
       src="./assets/emergency.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">Women & Child Helpline</h2>
@@ -156,10 +178,15 @@
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
+
+
+
+
+
                 <div class="card bg-base-100 md:w-[300px] md:h-[360px] shadow-lg">
   <div class="flex justify-between items-center p-5 mb-0">
     <div class="md:w-[60px] md:h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
@@ -167,7 +194,7 @@
       src="./assets/emergency.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">Anti-Corruption Helpline</h2>
@@ -178,10 +205,15 @@
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
+
+
+
+
+
                 <div class="card bg-base-100 md:w-[300px] md:h-[360px] shadow-lg">
   <div class="flex justify-between items-center p-5 mb-0">
     <div class="md:w-[60px] md:h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
@@ -189,7 +221,7 @@
       src="./assets/emergency.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">Electricity Helpline</h2>
@@ -200,10 +232,16 @@
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
+
+
+
+
+
+
                 <div class="card bg-base-100 md:w-[300px] md:h-[360px] shadow-lg">
   <div class="flex justify-between items-center p-5 mb-0">
     <div class="md:w-[60px] md:h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
@@ -211,7 +249,7 @@
       src="./assets/emergency.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">Brac Helpline</h2>
@@ -222,10 +260,16 @@
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
+
+
+
+
+
+
                 <div class="card bg-base-100 md:w-[300px] md:h-[360px] shadow-lg">
   <div class="flex justify-between items-center p-5 mb-0">
     <div class="md:w-[60px] md:h-[60px] bg-[#ffe3e2] flex justify-center items-center rounded-xl">
@@ -233,31 +277,42 @@
       src="./assets/emergency.png"
       alt="Shoes" />
     </div>
-      <i class="fa-regular fa-heart"></i>
+      <i class="heart-icon fa-regular fa-heart"></i>
   </div>
   <div class="card-body mt-0">
     <h2 class="card-title font-bold ">Bangladesh Railway Helpline </h2>
     <p class="text-gray-500">Bangladesh Railway</p>
     <div>
-        <h1 class="font-bold text-2xl mt-3 ml-1">163</h1>
+        <h1 class=" font-bold text-2xl mt-3 ml-1">163</h1>
         <p class="md:w-[53px] md:h-[37px] bg-[#f2f2f2] rounded-[50px] flex justify-center items-center">Travel</p>
     </div>
     <div class="flex justify-between mt-3">
         <button class="btn btn-wide md:w-[120px] md:h[40px] text-gray-500 rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button>
-        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl"><i class="fa-solid fa-phone-volume"></i>Call</button>
+        <button class="btn btn-dash btn-warning md:w-[120px] md:h[40px] text-white bg-[#00a63e] rounded-xl call-btn"><i class="fa-solid fa-phone-volume"></i>Call</button>
     </div>
   </div>
 </div>
 
+
+
+
             </div>
-            <aside class="col-span-1 bg-white mt-8 mb-8 shadow-xl">
+
+
+
+            <aside id="card-container" class="col-span-1 bg-white mt-8 mb-8 shadow-xl rounded-lg space-y-3">
                 <div class="flex justify-between items-center p-5">
                     <h1 class="font-semibold"><i class="fa-regular fa-clock"></i> Call History</h1>
-                    <button class="btn btn-success rounded-xl">Clear</button>
+                    <button class="btn btn-success rounded-xl text-white">Clear</button>
                 </div>
+                
         </aside>
         </section>
         
     </main>
+
+
+
+    <script src="./index.js"></script>
 </body>
 </html>
